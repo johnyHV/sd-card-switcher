@@ -1,8 +1,21 @@
 # SD Card Switcher
 
-A simple hardware device for switching a microSD card between a PC and another SD-card host device.
+A simple hardware device for switching a microSD card between a PC and another SD-card host device. 
 
 <img src="sd-switcher-v1.1/device.jpg" width="50%">
+
+## Use Cases
+
+Useful for devices where an SD card needs to be frequently accessed from both the target device and a PC, for example:
+
+- Firmware development and testing
+- Embedded Linux development
+- 3D printers
+- Single-board computers
+- SD-card based embedded devices
+- Easy access to logs and configuration files
+
+The switch changes the physical connection of the SD card; it does not copy or synchronize data.
 
 ## How it works
 
@@ -45,11 +58,19 @@ This allows the same SD card to be easily switched between a computer and the ta
 
 The SD-shaped PCB edge connector requires a 0.8 mm PCB thickness to fit properly into a standard SD card slot.
 
-The PCB was manufactured by [JLCPCB](https://jlcpcb.com/?from=GRVYI).
+The PCB was manufactured by [JLCPCB](https://jlcpcb.com/?from=GRVYI). This is a referral link. 
 
 ## Files
 
 This repository contains the PCB design files and manufacturing files required to build the SD Card Switcher.
+
+## Disclaimer
+
+This project is provided "as is", without any warranty.
+
+The author is not responsible for any damage to SD cards, connected devices, computers, or other hardware resulting from the use, modification, or construction of this project.
+
+Build and use it at your own risk.
 
 ## License
 
