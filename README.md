@@ -2,7 +2,10 @@
 
 A simple hardware device for switching a microSD card between a PC and another SD-card host device. 
 
-<img src="sd-switcher-v1.1/device.jpg" width="50%">
+<div align="center">
+  <img src="sd-switcher-v1.1/device up.jpg" width="45%">
+  <img src="sd-switcher-v1.1/device down.jpg" width="45%">
+</div>
 
 ## Use Cases
 
